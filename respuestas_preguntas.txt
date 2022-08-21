@@ -1,0 +1,13 @@
+1.	¿Qué significa que mi sistema sea modular y tenga un bajo acople?
+es un el diseño de un sistema modular es un enfoque que subdivide un sistema en partes más pequeñas llamadas módulos o plataformas, que pueden crearse de manera independiente y luego usarse en diferentes sistemas.
+en cuanto a lo que se refiere al acople si el sistema tiene un bajo acople significa que simplemente es necesaria una interfaz para inetractuar entre modulos, no se requiere conocer la implementacion interna del modulo
+
+2. ¿Por qué quiero que un módulo en mi sistema tenga alta cohesión?
+un módulo tiene alta cohesión si todos, o la mayoría de sus componentes trabajan para un mismo objetivo y no para cosas dispares o no relacionadas.Por lo que si se tiene una alta cohesion permitirá que el componente utilice menos otros módulos externos, ya que la mayoría de lo que requiere para realizar su trabajo está en el mismo módulo.
+3.	¿Qué es un monolito?
+Una aplicación monolítica es donde todas las clases y funciones se encuentran en un solo archivo de software, todas las funcionalidades y códigos están en un solo proceso.
+4.	¿Por qué no quiero diseñar mi sistema como un monolito?
+
+•	en la actualización y escalado al tratarse de un código único,todo nuevo despliegue requiere relanzar la aplicación en su conjunto. Además, por el tamaño del código único, resulta difícil identificar y solucionar problemas en especifico.
+•	El crecimiento del código va aparejado de una sobrecarga de la aplicación informática, lo que en última instancia repercute sobre su agilidad.
+•	un fallo en cualquier línea del código implica un fallo en todo el sistema
